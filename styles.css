@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/blue\ plant.png);
+}
+.birthday{
+    background-color: black;
+    text-align: center;
+    color: gold;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+    font-size: larger;
+    border-radius: 50%;
+}
+h1{
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+.sincere{
+    font-style: italic;
+    font-size: small;
+}
